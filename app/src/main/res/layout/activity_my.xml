@@ -5,6 +5,7 @@
     android:orientation="horizontal">
 
     <EditText android:id="@+id/edit_message"
+        android:hint="@string/edit_message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </LinearLayout>
