@@ -1,15 +1,15 @@
 package business.doubleb.dabaran.myfirstapp;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 
 
-public class MyActivity extends ActionBarActivity {
+public class MyActivity extends Activity {
 
     public final static String EXTRA_MESSAGE = "business.doubleb.dabaran.myfirstapp.MESSAGE";
 
